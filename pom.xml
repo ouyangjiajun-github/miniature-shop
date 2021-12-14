@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>gateway-shop</module>
         <!--<module>mall-common</module>-->
         <!--<module>mall-mbg</module>-->
         <!--<module>mall-demo</module>-->
