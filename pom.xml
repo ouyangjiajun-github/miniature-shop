@@ -53,7 +53,7 @@
         <minio.version>7.1.0</minio.version>
         <knife4j.version>2.0.4</knife4j.version>
         <nimbus-jose-jwt.version>8.16</nimbus-jose-jwt.version>
-        <mall-common.version>1.0-SNAPSHOT</mall-common.version>
+        <common-shop.version>1.0-SNAPSHOT</common-shop.version>
         <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
     </properties>
 
@@ -106,16 +106,16 @@
             </dependency>
             <!--mall通用模块-->
             <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-common</artifactId>
-                <version>${mall-common.version}</version>
+                <groupId>com.ouyang.miniature</groupId>
+                <artifactId>common-shop</artifactId>
+                <version>${common-shop.version}</version>
             </dependency>
             <!--mall中MBG生成模块-->
-            <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-mbg</artifactId>
-                <version>${mall-mbg.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.ouyang.mall</groupId>-->
+                <!--<artifactId>mall-mbg</artifactId>-->
+                <!--<version>${mall-mbg.version}</version>-->
+            <!--</dependency>-->
             <!--MyBatis分页插件starter-->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>

@@ -14,7 +14,7 @@
 
     <dependencies>
         <!--<dependency>-->
-        <!--<groupId>com.macro.mall</groupId>-->
+        <!--<groupId>com.ouyang.mall</groupId>-->
         <!--<artifactId>mall-common</artifactId>-->
         <!--<exclusions>-->
         <!--<exclusion>-->
@@ -71,6 +71,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ouyang.miniature</groupId>
+            <artifactId>common-shop</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

@@ -8,17 +8,17 @@ spring:
           enabled: true
           lower-case-service-id: true #使用小写service-id
       routes: #配置路由路径
-        - id: shop-auth
-          uri: lb://shop-auth
+        - id: auth-shop
+          uri: lb://auth-shop
           predicates:
-            - Path=/shop-auth/**
+            - Path=/auth-shop/**
           filters:
             - StripPrefix=1
   security:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: 'http://localhost:8201/shop-auth/rsa/publicKey' #配置RSA的公钥访问地址
+          jwk-set-uri: 'http://localhost:8201/auth-shop/rsa/publicKey' #配置RSA的公钥访问地址
   redis:
     database: 0
     port: 6379

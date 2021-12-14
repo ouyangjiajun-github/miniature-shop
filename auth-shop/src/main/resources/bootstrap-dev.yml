@@ -1,0 +1,14 @@
+#TODO:微服务权限解决方案（鉴权服务端）:step2:在application.yml中添加相关配置，主要是Nacos和Redis相关配置；
+#TODO:微服务权限解决方案（鉴权服务端）:step3:使用keytool生成RSA证书jwt:jks，复制到resource目录下:
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+      config:
+        server-addr: http://localhost:8848
+        file-extension: yaml
+logging:
+  level:
+    root: debug
